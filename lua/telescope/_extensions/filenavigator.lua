@@ -3,6 +3,6 @@ return require("telescope").register_extension {
     -- access extension config and user config
   end,
   exports = {
-    filenavigator = require("filenavigator._filenavigator").do_navigate
+    filenavigator = require("telescope._extensions.filenavigator._filenavigator").do_navigate
   },
 }
